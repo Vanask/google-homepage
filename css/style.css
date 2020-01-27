@@ -1,12 +1,91 @@
 Body {
-text-align: center;
-background-color: white;
+  text-align: center;
+  background-color: white;
+}
+
+.toplinks {
+  text-decoration: none;
+  margin: 0 4px;
+  color: #5f6368;
+}
+
+a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.top {
+  text-align: right;
+  margin: 15px 150px 150px 0;
 }
 
 .googlelogo {
   margin: auto;
-padding-top: 109px;
+}
 
+.searchbar {
+  border-radius: 5%;
+  width: 487px;
+  height: 34px;
+  margin: 15px auto;
+}
 
+button {
+  width: 125px;
+  height: 34px;
+  border-radius: 10%;
+  margin: 20px 8px;
+}
 
+button:hover {
+  border: solid 1px;
+  border-radius: 10%;
+}
+
+.footer1 {
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  background: #f2f2f2;
+  text-align: left;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer1text {
+  margin-left: 30px;
+  color: #5f6368;
+}
+
+.footer2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+  text-align: left;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer2text {
+  margin-left: 30px;
+  position: absolute;
+  word-spacing: 15px;
+  color: #5f6368;
+}
+
+.footer2text2 {
+  text-align: right;
+  margin-right: 30px;
+  word-spacing: 15px;
+  color: #5f6368;
+}
+
+span {
+  word-spacing: 0px;
 }
